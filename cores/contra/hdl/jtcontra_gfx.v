@@ -439,6 +439,7 @@ generate
         jtframe_vtimer #(
             .HB_START( 279 ),
             .HB_END  ( 383 ),   // 384 pixels per line, H length = 64us
+            .HS_START( 312 ),
             .VS_START( 247 ),
             .VS_END  ( 250 )
         ) u_timer(
